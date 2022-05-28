@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+}
+.navBar{
+	display: flex;
+	
+	align-items: center;
+	text-decoration: none;
+	border-bottom:solid #828282 1px;
+	justify-content: space-between;
+}
+a{
+	color:#828282;
+	font-family: 'Gilroy Bold';
+	font-size: 18;
+}
+a:hover{
+color:black ;
+}
+.navButtons{
+	justify-content: space-between;
+	text-decoration: none;
+	margin-bottom: 31px;
+	
+}
+.head{
+	text-decoration: none;
+	
+	height: 90px;
+	width: 100%;
+	padding-top: 32px;;
+	padding-left: 250px;
+	padding-right: 250px;
+	
+}
+.content_1{
+	width: 100%;
+	
+	background-color: #FFFFFF;
+	padding: 250px;
+	padding-top: 32px;
+	padding-bottom: 104px;
+}
+.about{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.txt{
+	position: relative;
+	display: block;
+}
+.lang{
+	display: flex;
+	transform: rotate(-90deg);
+	
+}
+.name{
+	display: block;
+}
+.me{
+	margin-top: 30px;
+	width: 100%;
+	
+}
+.aboutMe{
+	text-align: center;
+	padding-top: 105px;
+	background-color:  #F6F6F6;
+	text-decoration: none;
+	padding-bottom: 107px;
+}
+.child_aboutMe{
+	margin-bottom: 107px;
+	width: 100%;
+}
+.skill{
+	height: 610px;
+}
+.skillTxt{
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 70px;
+}
+.skillWork{
+	text-align: center;
+	margin-bottom: 84px;
+}
+.pic{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 295px;
+	margin-right: 295px;
+	text-align: center;
+}
+.nameApp{
+	padding-top: 23px ;
+}
+
+
+
+p{
+	margin: 0;
+	background-color: none;
+}
+h1{
+	margin: 0;
+	background-color: none;
+}
+::-webkit-scrollbar {
+	width: 0;
+  }
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('Gilroy-Medium.woff2') format('woff2'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
